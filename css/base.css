@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.app {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.control-area {
+    padding-left: 50px;
+}
+
+.description {
+    padding-left: 50px;
+}
+
+.schedule-area {
+    overflow-x: auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.schedule-table td {
+    height: 130px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}

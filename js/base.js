@@ -3,7 +3,7 @@
 
 import { SD } from "./data.js";
 
-function drawSchedule(term, termType, textCSS, day, period){
+function drawSchedule(term, termType, textCSS, day, period, index, selected){
     let box1, box2;
     if(term === termType){
             switch(period){
@@ -311,10 +311,20 @@ function drawSchedule(term, termType, textCSS, day, period){
         }
 }
 
+function drawCheckBox(box1, box2, index, selected){
+    if(selected){
+        box1.insertAdjacentHTML('beforeend', `<input type="checkbox" checked="checked" class="checkBox2${index}">`);
+        if(box2 === !(undefined)) box2.insertAdjacentHTML('beforeend', `<input type="checkbox" checked="checked" class="checkBox2${index}">`);
+    }else{
+        box1.insertAdjacentHTML('beforeend', `<input type="checkbox" checked="" class="checkBox2${index}">`);
+        if(box2 === !(undefined)) box2.insertAdjacentHTML('beforeend', `<input type="checkbox" checked="" class="checkBox2${index}">`);
+    }
+}
+
 function disDrawSchedule(){
     const td = document.querySelectorAll("td");
     for(let i = 0; i < td.length; i++){
-        td[i].textContent = "";
+        td[i].innerHTML = "";
     }
 }
 
@@ -322,15 +332,16 @@ function disDrawSchedule(){
 // 初期描画
 SD.forEach(function(value, index, array){
     // 1年
-    const black = `${array[index].name}<br>`;
-    const red = `<div class="red">${array[index].name}</div><br>`;
-    const blue = `<div class="blue">${array[index].name}</div><br>`;
+    const black = `<div>${array[index].name}</div>`;
+    const red = `<div class="red">${array[index].name}</div>`;
+    const blue = `<div class="blue">${array[index].name}</div>`;
     const day = array[index].day; // 1~6 月~土
     const period = array[index].period; // 1~6
+    const firastSelected = false;
     if(array[index].minGrade === 1){
-        drawSchedule(array[index].term, "AB", black, day, period);
-        drawSchedule(array[index].term, "A", red, day, period);
-        drawSchedule(array[index].term, "B", blue, day, period);
+        drawSchedule(array[index].term, "AB", black, day, period, index, firastSelected);
+        drawSchedule(array[index].term, "A", red, day, period, index, firastSelected);
+        drawSchedule(array[index].term, "B", blue, day, period, index, firastSelected);
     }
 });
 
@@ -339,25 +350,42 @@ const gradeSelect = document.querySelector("#gradeSelect");
 gradeSelect.addEventListener("change", function(){
     disDrawSchedule();
     SD.forEach(function(value, index, array){
-        // 1年
         const black = `<div>${array[index].name}</div>`;
         const red = `<div class="red">${array[index].name}</div>`;
         const blue = `<div class="blue">${array[index].name}</div>`;
         const day = array[index].day; // 1~6 月~土
         const period = array[index].period; // 1~6
+
+        const check1 = document.querySelector(`.checkBox1${index}`);
+        const check2 = document.querySelector(`.checkBox2${index}`);
+
+        // 1年
         if(array[index].minGrade === 1){
+
             if(gradeSelect.value === "1"){
                 console.log("a");
-                drawSchedule(array[index].term, "AB", black, day, period);
-                drawSchedule(array[index].term, "A", red, day, period);
-                drawSchedule(array[index].term, "B", blue, day, period);
+                drawSchedule(array[index].term, "AB", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "A", red, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "B", blue, day, period, index, array[index].selected);
             }else if(gradeSelect.value === "2"){
-                drawSchedule(array[index].term, "AB", black, day, period);
-                drawSchedule(array[index].term, "A", red, day, period);
+                drawSchedule(array[index].term, "AB", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "A", red, day, period, index, array[index].selected);
             }else if(gradeSelect.value === "3"){
-                drawSchedule(array[index].term, "AB", black, day, period);
-                drawSchedule(array[index].term, "B", blue, day, period);
-            };
+                drawSchedule(array[index].term, "AB", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "B", blue, day, period, index, array[index].selected);
+            }else if(gradeSelect.value === "4"){
+                drawSchedule(array[index].term, "CD", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "C", red, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "D", blue, day, period, index, array[index].selected);
+            }else if(gradeSelect.value === "5"){
+                drawSchedule(array[index].term, "CD", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "C", red, day, period, index, array[index].selected);
+            }else if(gradeSelect.value === "6"){
+                drawSchedule(array[index].term, "CD", black, day, period, index, array[index].selected);
+                drawSchedule(array[index].term, "D", blue, day, period, index, array[index].selected);
+            }
+
+            console.log(check1, check2);
         };
     });
 });

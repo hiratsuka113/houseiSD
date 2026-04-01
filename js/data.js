@@ -19,6 +19,8 @@ const SD = [
     teacher: "佐藤 優希",
     room: "市ヶ谷体育",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -32,6 +34,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -45,6 +49,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -58,6 +64,8 @@ const SD = [
     teacher: "黒田 克史",
     room: "情報教室2",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -71,6 +79,8 @@ const SD = [
     teacher: "駒井 悠亮",
     room: "情報教室1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -84,6 +94,8 @@ const SD = [
     teacher: "大木 一",
     room: "都市スタジオルーム",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -97,6 +109,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -110,6 +124,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -123,6 +139,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -136,6 +154,8 @@ const SD = [
     teacher: "今井 龍一",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -149,6 +169,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -162,6 +184,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -175,6 +199,8 @@ const SD = [
     teacher: "佐藤 優希",
     room: "市ヶ谷体育",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -188,6 +214,8 @@ const SD = [
     teacher: "大西 景太",
     room: "情報教室1,情報教室2",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -201,6 +229,8 @@ const SD = [
     teacher: "田村 広子",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -214,6 +244,8 @@ const SD = [
     teacher: "宮田 雄二郎",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -227,6 +259,8 @@ const SD = [
     teacher: "川瀬 利弘",
     room: "T313",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -240,6 +274,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -253,6 +289,8 @@ const SD = [
     teacher: "安積 伸",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -266,6 +304,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -279,6 +319,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -292,6 +334,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -305,6 +349,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 1,
@@ -318,6 +364,8 @@ const SD = [
     teacher: "網野 禎昭",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -331,6 +379,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -344,6 +394,8 @@ const SD = [
     teacher: "中野 淳太",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -357,6 +409,8 @@ const SD = [
     teacher: "下田 昭郎",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -370,6 +424,8 @@ const SD = [
     teacher: "池田 尚司",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -383,6 +439,8 @@ const SD = [
     teacher: "上山 肇",
     room: "都市スタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -396,6 +454,8 @@ const SD = [
     teacher: "姜 理惠",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -409,6 +469,8 @@ const SD = [
     teacher: "山田 泰之",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -422,6 +484,8 @@ const SD = [
     teacher: "稲舩 仁哉",
     room: "T313",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -435,6 +499,8 @@ const SD = [
     teacher: "土屋 愛自",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -448,6 +514,8 @@ const SD = [
     teacher: "森 健一郎",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -461,6 +529,8 @@ const SD = [
     teacher: "髙田 美樹",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -470,10 +540,12 @@ const SD = [
     required: 1,
     minGrade: 2,
     maxGrade: 4,
-    name: "プレゼンテーション技術Ｘ",
+    name: "プレゼンテーション技術X",
     teacher: "豊島 純子",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -487,6 +559,8 @@ const SD = [
     teacher: "加納 昌彦",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -500,6 +574,8 @@ const SD = [
     teacher: "思 沁夫",
     room: "T501,マルチメディアホール",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -513,6 +589,8 @@ const SD = [
     teacher: "豊島 純子",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -526,6 +604,8 @@ const SD = [
     teacher: "秋元 淳",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -539,6 +619,8 @@ const SD = [
     teacher: "大友 敬三",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -552,6 +634,8 @@ const SD = [
     teacher: "浅川 英理子",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -565,6 +649,8 @@ const SD = [
     teacher: "矢作 優知",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -578,6 +664,8 @@ const SD = [
     teacher: "伊藤 文臣",
     room: "T501",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -591,6 +679,8 @@ const SD = [
     teacher: "五嶋 裕之",
     room: "T411,T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -604,6 +694,8 @@ const SD = [
     teacher: "新井 風愉",
     room: "SDスタジオルーム,情報教室1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -617,6 +709,8 @@ const SD = [
     teacher: "中野 淳太",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -630,6 +724,8 @@ const SD = [
     teacher: "藤井 新吾",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -643,6 +739,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 2,
@@ -656,6 +754,8 @@ const SD = [
     teacher: "松山 祥樹",
     room: "SDスタジオルーム",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -669,6 +769,8 @@ const SD = [
     teacher: "姜 理惠",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -682,6 +784,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -695,6 +799,8 @@ const SD = [
     teacher: "山田 泰之",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -708,6 +814,8 @@ const SD = [
     teacher: "野々部 宏司",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -721,6 +829,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "都市スタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -734,6 +844,8 @@ const SD = [
     teacher: "辻村 亮子",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -747,6 +859,8 @@ const SD = [
     teacher: "境 新一",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -760,6 +874,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "T312他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -773,6 +889,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -786,6 +904,8 @@ const SD = [
     teacher: "髙田 美樹",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -799,6 +919,8 @@ const SD = [
     teacher: "山田 泰之",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -812,6 +934,8 @@ const SD = [
     teacher: "井沼 学",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -825,6 +949,8 @@ const SD = [
     teacher: "堀井 辰衛",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -838,6 +964,8 @@ const SD = [
     teacher: "林 奈生子",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -851,6 +979,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -864,6 +994,8 @@ const SD = [
     teacher: "石橋 忠人",
     room: "T311,情報教室1,情報教室2",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -877,6 +1009,8 @@ const SD = [
     teacher: "石橋 忠人",
     room: "T311,情報教室1,情報教室2",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -890,6 +1024,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: ",SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -903,6 +1039,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -916,6 +1054,8 @@ const SD = [
     teacher: "大高 知子",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -929,6 +1069,8 @@ const SD = [
     teacher: "蓼沼 佳孝",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -942,6 +1084,8 @@ const SD = [
     teacher: "高橋 美礼",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -955,6 +1099,8 @@ const SD = [
     teacher: "下吹越 武人",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -968,6 +1114,8 @@ const SD = [
     teacher: "川村 武也",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -981,6 +1129,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -994,6 +1144,8 @@ const SD = [
     teacher: "土屋 愛自",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 3,
@@ -1007,6 +1159,8 @@ const SD = [
     teacher: "馬場 祐人",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1020,6 +1174,8 @@ const SD = [
     teacher: "大西 景太",
     room: "SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1033,6 +1189,8 @@ const SD = [
     teacher: "牧野 倫子",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1046,6 +1204,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1059,6 +1219,8 @@ const SD = [
     teacher: "MICHELE VERGOLANI",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1072,6 +1234,8 @@ const SD = [
     teacher: "安積 伸",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1085,6 +1249,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1098,6 +1264,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1111,6 +1279,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1124,6 +1294,8 @@ const SD = [
     teacher: "平田 昌大",
     room: "都市スタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1137,6 +1309,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1150,6 +1324,8 @@ const SD = [
     teacher: "山田 由美",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1163,6 +1339,8 @@ const SD = [
     teacher: "池庄司 雅臣",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1176,6 +1354,8 @@ const SD = [
     teacher: "大西 悟",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1189,6 +1369,8 @@ const SD = [
     teacher: "藤本 貴子",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1202,6 +1384,8 @@ const SD = [
     teacher: "北山 一真",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1215,6 +1399,8 @@ const SD = [
     teacher: "姜 理惠",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1228,6 +1414,8 @@ const SD = [
     teacher: "大西 景太",
     room: "SDスタジオ,都市スタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1241,6 +1429,8 @@ const SD = [
     teacher: "大西 景太",
     room: "SDスタジオ,都市スタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1254,6 +1444,8 @@ const SD = [
     teacher: "佐藤 由子",
     room: "情報教室1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1267,6 +1459,8 @@ const SD = [
     teacher: "馬場 祐人",
     room: "T311",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1280,6 +1474,8 @@ const SD = [
     teacher: "武居 秀樹",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1293,6 +1489,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1306,6 +1504,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1319,6 +1519,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "情報教室1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1332,6 +1534,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "情報教室2",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1345,6 +1549,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1358,6 +1564,8 @@ const SD = [
     teacher: "藤井 新吾",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1371,6 +1579,8 @@ const SD = [
     teacher: "我妻 幸長",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1384,6 +1594,8 @@ const SD = [
     teacher: "山田 泰之",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1397,6 +1609,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 4,
@@ -1410,6 +1624,8 @@ const SD = [
     teacher: "デザイン工学部担当教員",
     room: "その他 ※1",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1423,6 +1639,8 @@ const SD = [
     teacher: "野々部 宏司",
     room: "T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1436,6 +1654,8 @@ const SD = [
     teacher: "安積 伸",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1449,6 +1669,8 @@ const SD = [
     teacher: "倉田 俊彦",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1462,6 +1684,8 @@ const SD = [
     teacher: "土屋 雅人",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1475,6 +1699,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "T414",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1488,6 +1714,8 @@ const SD = [
     teacher: "水野 操",
     room: "T311",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1501,6 +1729,8 @@ const SD = [
     teacher: "安積 伸",
     room: "建築スタジオ,SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1514,6 +1744,8 @@ const SD = [
     teacher: "青山 翔吾",
     room: "T314",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1527,6 +1759,8 @@ const SD = [
     teacher: "倉田 俊彦",
     room: "T501",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1540,6 +1774,8 @@ const SD = [
     teacher: "SEONG YOUNG AH",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1553,6 +1789,8 @@ const SD = [
     teacher: "福井 恒明",
     room: "都市スタジオルーム",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1566,6 +1804,8 @@ const SD = [
     teacher: "浅川 英理子",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1579,6 +1819,8 @@ const SD = [
     teacher: "安積 伸",
     room: "SDスタジオ他",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1592,6 +1834,8 @@ const SD = [
     teacher: "竹末 直樹",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1605,6 +1849,8 @@ const SD = [
     teacher: "李 江南",
     room: "T511",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1618,6 +1864,8 @@ const SD = [
     teacher: "ディン ボリバン",
     room: "T206",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1631,6 +1879,8 @@ const SD = [
     teacher: "小林 信也",
     room: "マルチメディアホール",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1644,6 +1894,8 @@ const SD = [
     teacher: "安積 伸",
     room: "SDスタジオ",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1657,6 +1909,8 @@ const SD = [
     teacher: "五嶋 裕之",
     room: "T411,T412",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1670,6 +1924,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "T312",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1683,6 +1939,8 @@ const SD = [
     teacher: "岩月 正見",
     room: "T411",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1696,6 +1954,8 @@ const SD = [
     teacher: "坂間 清子",
     room: "T313",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 5,
@@ -1709,6 +1969,8 @@ const SD = [
     teacher: "野々部 宏司",
     room: "T413",
     style: 0,
+    credit: 2,
+    selected: false,
   },
   {
     day: 6,
@@ -1722,6 +1984,8 @@ const SD = [
     teacher: "南後 由和",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
   {
     day: 6,
@@ -1735,6 +1999,8 @@ const SD = [
     teacher: "日比野 浩典",
     room: "その他",
     style: 1,
+    credit: 2,
+    selected: false,
   },
 ];
 

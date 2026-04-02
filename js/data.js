@@ -7,6 +7,21 @@
 // style: 0=対面, 1=オンライン
 
 const SD = [
+  {
+    day: 3,
+    period: 3,
+    term: "A",
+    consecutiveFlag: "",
+    required: 2,
+    minGrade: 1,
+    maxGrade: 4,
+    name: "導入ゼミナール",
+    teacher: "",
+    room: "その他",
+    style: 1,
+    credit: 1,
+    selected: false,
+  },
 	{
     day: 1,
     period: 1,
